@@ -1,1 +1,1 @@
-float valmax(float a[], int n);
+float maxvalore(float a,float b)
