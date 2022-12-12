@@ -1,15 +1,10 @@
 #include "lib.h"
-
-float max (float pt[], int n){
-  int i=0;
-  while (i<n){
-    if (pt[0]>pt[1]){
-      i++;
+float valmax(float a[], int n) {
+    float b=1;
+for (int j=0; j<n; j++){
+    if(a[j]>b){
+        b=a[j];
     }
-    else {
-      pt[0]=pt[i];
-      i++;
-    }
-  }
-  return pt[0];
+}
+    return b;
 }
