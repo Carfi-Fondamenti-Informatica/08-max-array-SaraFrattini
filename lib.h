@@ -1,1 +1,1 @@
-float maxvalore(float a,float b)
+float maxvalore(float a[], int n)
